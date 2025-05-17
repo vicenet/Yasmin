@@ -1,4 +1,5 @@
 import React from 'react';
+import dipatchImage from '/images/dispatch-center.jpg'
 
 const AboutSection = () => {
   return (
@@ -17,7 +18,7 @@ const AboutSection = () => {
         </div>
         <div className="about-image-card">
           <div className="image-container">
-            <img src="src/assets/images/dispatch-center.jpg" alt="Emergency Dispatch Center" className="about-image" />
+            <img src={dipatchImage} alt="Emergency Dispatch Center" className="about-image" />
           </div>
           <div className="image-caption">
             <h3 className="caption-title">State-of-the-Art Command Center</h3>
