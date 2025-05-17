@@ -70,7 +70,7 @@ a:hover {
 
 
 .site-header {
-  background-color: var(--royal-blue);
+  background-color: transparent white;
   border-bottom: 1px solid var(--light-gray);
   padding: 1rem 0;
   position: sticky;
@@ -94,16 +94,18 @@ a:hover {
 
 .nav-left, .nav-right {
   display: flex;
+  justify-content: space-around;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .nav-link {
-  color: var(--white);
+  color: var(--royal-blue);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0.5rem 1rem;
+  gap: 2rem;
   transition: color 0.3s ease;
   position: relative;
 }
@@ -120,7 +122,7 @@ a:hover {
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: var(--sapphire);
+  background-color: var(--roya);
   transition: width 0.3s ease;
 }
 
@@ -137,7 +139,7 @@ a:hover {
 }
 
 .logo h1 {
-  color: var(--white);
+  color: var(--royal-blue);
   font-size: 1.75rem;
   font-weight: 700;
   margin: 0;
@@ -173,7 +175,7 @@ a:hover {
 
 
 .hero {
-  background: linear-gradient(135deg, var(--royal-blue), var(--sapphire));
+  background: linear-gradient(135deg, var(--white), var(--off-white));
   color: var(--white);
   padding: 50px;
   min-height: 90vh;
@@ -214,7 +216,7 @@ a:hover {
 }
 
 .hero-card {
-  background-color: var(--white);
+  background-color: var(--royal-blue);
   min-height: 85vh;
   min-width: 80vw;
   display: flex;
@@ -237,7 +239,7 @@ a:hover {
 }
 
 .hero h1 {
-  color: var(--royal-blue);
+  color: var(--white);
   font-size: 4.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -265,7 +267,7 @@ a:hover {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--dark-gray);
+  color: var(--off-white);
 }
 
 .hero .cta-button {
