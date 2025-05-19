@@ -52,31 +52,11 @@ const ServiceSection = () => {
         <div className="full-width-card with-image">
   <div className="full-card-content">
     <div className="card-text-section">
-      <div className="card-icon-large">
-        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
-          <path d="M12 6V12L16 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      </div>
       <div className="full-card-text">
         <h3 className="full-card-title">24/7 Emergency Management</h3>
         <p className="full-card-description">
           Our comprehensive emergency management system operates around the clock, providing uninterrupted service to communities in need. With 99.99% uptime and redundant systems, you can trust our platform when lives are on the line.
         </p>
-      </div>
-      <div className="service-stats">
-        <div className="stat-item">
-          <span className="stat-value">99.99%</span>
-          <span className="stat-label">Uptime</span>
-        </div>
-        <div className="stat-item">
-          <span className="stat-value">24/7</span>
-          <span className="stat-label">Support</span>
-        </div>
-        <div className="stat-item">
-          <span className="stat-value">45+</span>
-          <span className="stat-label">Integrations</span>
-        </div>
       </div>
       <button className="cta-button animate-slide-up-delay-2">Learn More</button>
     </div>

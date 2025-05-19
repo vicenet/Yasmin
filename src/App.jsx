@@ -1,5 +1,6 @@
 import './App.css'
 import AboutSection from './sections/AboutSection'
+import CommunitySection from './sections/CommunitySection'
 import ContactSection from './sections/ContactSection'
 import FAQSection from './sections/FAQSection'
 import FooterSection from './sections/FooterSection'
@@ -22,6 +23,7 @@ function App() {
      <TestimonialsSection />
      <PartnerSection />
      <ResourcesSection />
+     <CommunitySection />
      <FAQSection />
      <ContactSection />
      <FooterSection />
