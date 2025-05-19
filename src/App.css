@@ -775,6 +775,14 @@ a:hover {
   box-shadow: var(--shadow-lg);
 }
 
+
+.card-image-section img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
 .card-icon {
   width: 64px;
   height: 64px;
@@ -933,12 +941,17 @@ a:hover {
   .full-card-text {
     flex: 1 1 100%;
     margin-bottom: 1.5rem;
+    justify-content: center;
   }
   
   .service-stats {
     flex: 1 1 100%;
     justify-content: flex-start;
   }
+
+  .card-image-section img {
+  display: none;
+}
 }
 
 @media (max-width: 768px) {
@@ -949,6 +962,12 @@ a:hover {
   gap: 2rem;        
   padding: 2rem 1rem;
 }
+
+.full-card-text {
+    flex: 1 1 100%;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+  }
 
 .service-card {
   width: 100%;

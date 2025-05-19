@@ -9,7 +9,6 @@ const HeroSection = () => {
         <div className="hero-card animate-fade-in">
           <div className="pulse-line"></div>
 
-          {/* Art images positioned absolutely in corners */}
           
 
           <div className="hero-card-content">
