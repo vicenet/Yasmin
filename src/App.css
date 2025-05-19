@@ -392,6 +392,44 @@ a:hover {
   left: 100%;
 }
 
+.hero-art {
+  position: absolute;
+  object-fit: contain;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-art-left {
+  transform: translateX(-44%) translateY(-10%);
+  width: 700px; 
+  height: auto;
+  clip-path: inset(0 0 0 44%); 
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.hero-art-right {
+  transform: translateX(+50%) translateY(-10%);
+  width: 950px; 
+  height: auto;
+  clip-path: inset(0 50% 0 0); 
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 20px;
+}
+
+
+@media (max-width: 1024px) {
+  /* Medium screens and below */
+  .hero-art-left,
+  .hero-art-right {
+    display: none;
+  }
+}
+
+
 
 @media (max-width: 768px) {
   .hero {
@@ -427,6 +465,7 @@ a:hover {
     width: 80%;
     max-width: 250px;
   }
+
 }
 
 
@@ -547,7 +586,7 @@ a:hover {
 
 .about-image-card {
   flex: 1;
-  background-color: var(--white);
+  background-color: var(--royal-blue);
   border-radius: 50px;
   box-shadow: var(--shadow-md);
   overflow: hidden;
@@ -568,6 +607,7 @@ a:hover {
   width: 100%;
   height: auto;
   overflow: hidden;
+  background: var(--royal-blue);
 }
 
 .about-image {
@@ -1747,8 +1787,9 @@ a:hover {
 
 .image-container {
   width: 100%;
-  height: 600px;
+  height: auto;
   overflow: hidden;
+  background: var(--royal-blue);
 }
 
 .faq-image {
@@ -1778,17 +1819,26 @@ a:hover {
 @media (max-width: 768px) {
   .faq-section {
     padding: 4rem 0;
+    margin-right: 20px;
+  
+  }
+
+  .faq-image-card{
+    margin: 1rem;
   }
   
   .faq-container {
     flex-direction: column;
+    margin:1rem;
   }
   
   .faq-header {
     width: 100%;
     padding-right: 0;
     margin-bottom: 2.5rem;
+    margin-right: 3rem;
   }
+
   
   .faq-items {
     width: 100%;

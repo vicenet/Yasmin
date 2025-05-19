@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import dispatchTeam from '/images/dipatch-support.jpg'
+import artImage2 from '/images/art2.png';
 
 const FAQSection = () => {
 
@@ -71,7 +72,7 @@ const FAQSection = () => {
           <div className="faq-image-card">
             <div className="image-container">
               <img 
-                src={dispatchTeam}
+                src={artImage2}
                 alt="Emergency dispatch support team" 
                 className="faq-image"
               />
