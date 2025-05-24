@@ -152,16 +152,16 @@ a:hover {
   white-space: nowrap;
 }
 
-/* Hamburger Menu Styles */
+
 .hamburger-menu {
-  display: none; /* Hidden by default on all screens */
+  display: none; 
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
   height: 21px;
   cursor: pointer;
   z-index: 1001;
-  margin-right: 0.5rem; /* Prevent it from touching the edge */
+  margin-right: 0.5rem;
 }
 
 .hamburger-line {
@@ -183,7 +183,6 @@ a:hover {
   transform: translateY(-9px) rotate(-45deg);
 }
 
-/* Mobile Navigation */
 .mobile-nav {
   display: none;
   position: fixed;
